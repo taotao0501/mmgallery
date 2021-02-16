@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 数据文件 -->
+<root>
+	<painting id="1">
+		<pname>吕布-天魔乱舞</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/1.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="2">
+		<pname>赵云-核心引擎</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/2.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="3">
+		<pname>孙悟空-地狱 火</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/3.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="4">
+		<pname>诸葛亮-扇贝仙人</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/4.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="5">
+		<pname>关于-冰封骑士</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/5.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="6">
+		<pname>嫦娥-貌美如花</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/6.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="7">
+		<pname>王昭君-偶像歌手</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/7.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="8">
+		<pname>氪金新皮肤</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/8.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="9">
+		<pname>古典油画鉴赏9</pname>
+		<category>1</category>
+		<price>3800</price>
+		<preview>upload/9.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="10">
+		<pname>氪金新皮肤</pname>
+		<category>2</category>
+		<price>3800</price>
+		<preview>upload/10.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="11">
+		<pname>抽氪金新皮肤</pname>
+		<category>2</category>
+		<price>3800</price>
+		<preview>upload/11.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="12">
+		<pname>氪金新皮肤</pname>
+		<category>2</category>
+		<price>3800</price>
+		<preview>upload/12.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="13">
+		<pname>氪金新皮肤</pname>
+		<category>2</category>
+		<price>3800</price>
+		<preview>upload/13.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="14">
+		<pname>氪金新皮肤</pname>
+		<category>2</category>
+		<price>3800</price>
+		<preview>upload/14.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+	<painting id="15">
+		<pname>氪金新皮肤</pname>
+		<category>2</category>
+		<price>3800</price>
+		<preview>upload/15.jpg</preview>
+		<description>这皮肤是我买的起的吗？不，不是，刚出来有5块优惠券那会我都买不起。</description>
+	</painting>
+</root>

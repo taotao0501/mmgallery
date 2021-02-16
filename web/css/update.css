@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.container {
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	padding: 10px;
+	width: 600px;
+	height: 600px;
+}
+
+body {
+	font-size: 14px;
+	color: #666666
+}
+
+fieldset {
+	border: #e6e6e6 solid 1px;
+	padding-bottom: 10px;
+}
+
+legend {
+	font-size: 24px;
+	padding: 10px;
+	border: #e6e6e6;
+}
+
+.ulform {
+	padding: 0px;
+}
+
+.ulform li {
+	padding: 5px;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.ulform li span {
+	font-size: 16px;
+	line-height: 40px;
+}
+
+input, select, textarea {
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	font-size: 16px;
+	color: #666666;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+textarea {
+	height: 100px;
+}
+
+.btn-button {
+	padding: 10px 20px;
+	border: 0px;
+	font-size: 16px;
+	background: lightseagreen;
+	color: white;
+	cursor: pointer;
+}
+
+.error_input {
+	color: red;
+	font-weight: bold;
+	border: 1px solid red;
+}
+
+.error_message {
+	color: red;
+	margin-left: 30px;
+}

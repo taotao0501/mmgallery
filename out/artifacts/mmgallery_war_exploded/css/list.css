@@ -1,0 +1,107 @@
+@charset "UTF-8";
+h1 {
+	font-size: 24px;
+	font-weight: normal;
+}
+
+body {
+	font-size: 14px;
+	color: #666666
+}
+
+table {
+	border: #e6e6e6;
+	width: 1000px;
+	border-collapse: collapse;
+}
+
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+.page a {
+	padding: 10px 5px;
+}
+
+td, th {
+	border: 0px;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #e6e6e6;
+}
+
+tr:hover {
+	background: #eeeeee;
+}
+
+thead tr {
+	background: #eeeeee;
+}
+
+.container {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	margin-left: -500px;
+	padding: 10px;
+	width: 1000px;
+	height: 600px;
+}
+
+.page {
+	padding: 0px;
+}
+
+.page li {
+	float: left;
+	list-style-type: none;
+	border: 1px solid #CCCCCC;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	padding-top: 7px;
+	margin-right: 10px;
+}
+
+.page li:hover {
+	cursor: pointer;
+	background: #eeeeee;
+}
+
+.page li.active {
+	background: lightseagreen;
+}
+
+.page li.active a {
+	color: white;
+}
+
+.oplink {
+	color: lightseagreen
+}
+
+.oplink:hover {
+	color: red;
+	cursor: pointer
+}
+
+fieldset {
+	border: #e6e6e6 solid 1px;
+	padding-bottom: 40px;
+}
+
+legend {
+	font-size: 24px;
+	padding: 10px;
+	border: #e6e6e6;
+}
+
+.btn-button {
+	padding: 10px 20px;
+	border: 0px;
+	font-size: 16px;
+	background: lightseagreen;
+	color: white;
+	cursor: pointer;
+}

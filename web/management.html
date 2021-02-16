@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>门户数据管理平台</title>
+    <style>
+        body{
+            margin: 0 auto;
+        }
+        a{
+        	text-decoration: none;
+        }
+        .left{
+            float: left;
+        }
+        .right{
+            float: right;
+        }
+ 
+        .pg_header{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 48px;
+            background-color: lightseagreen;
+            color: white;
+            z-index: 10;
+        }
+        .pg_header .logo{
+            height: 48px;
+            width: 200px;
+            text-align: center;
+            color: white;
+        }
+        .pg_header .logo a img{
+            height: 48px;
+            width: 200px;
+            cursor: pointer;
+        }
+        .pg_header .person_info{
+            position: relative;
+            height: 48px;
+            width: 160px;
+            /*text-align: center;*/
+        }
+        .pg_header .person_info img{
+            border: 0;
+            height: 48px;
+            width: 50px;
+            /*使用border-radius可以定义边框的圆角程度*/
+            border-radius: 50%;
+        }
+        .pg_header .person_info .info{
+            position: absolute;
+            width: 150px;
+            background-color: lightseagreen;
+            top: 50px;
+            z-index: 20;
+            display: none;
+        }
+        .pg_header .person_info .info a{
+            display: block;
+            color: white;
+            padding: 5px;
+        }
+        .pg_header .person_info:hover .info{
+            display: block;
+        }
+        .pg_header .icons{
+            line-height: 48px;
+            padding: 0 20px 0 5px;
+        }
+        .pg_header .icons:hover{
+            background-color: lightseagreen;
+        }
+        .pg_header .icons span{
+            padding: 1px 5px;
+            line-height: 1px;
+            border-radius: 50%;
+            background-color: red;
+            font-size: 12px;
+        }
+        .pg_content .menu{
+            position: absolute;
+            top: 50px;
+            left: 0;
+            bottom: 0;
+            width: 300px;
+            border:0px;
+            border-right: 1px solid #ccc;
+        }
+        .pg_content .content{
+            position: absolute;
+            top: 50px;
+            right: 0;
+            bottom: 0;
+            left: 302px;
+            overflow: auto;
+            min-width: 980px;
+            z-index: 8;
+            border:0px;
+            overflow: hidden;
+        }
+        .menu_item{
+        	display: block;
+        	padding: 10px 20px;
+        	border-bottom: 1px solid #ccc;
+        	font-size: 20px; 
+        	color: #666666;
+        }
+        
+        .menu_item:hover{
+        	color: white;
+        	background: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+	<!-- 顶端导航栏 -->
+    <div class="pg_header">
+		<!-- Logo与名称 -->
+        <div class="logo left">
+            <a href="javascript:void(0)" target="_blank">
+                <img src="image/logo_1.png">
+            </a>
+            
+        </div>
+		
+		<!-- 用户头像与菜单 -->
+        <div class="person_info right" style="vertical-align: top;" >
+            <img src="image/head.png">
+            <span style="line-height: 50px;vertical-align: top;">小企鹅</span>
+            <div class="info">
+                <a href="javascript:void(0)">我的信息</a>
+                <a href="javascript:void(0)">修改密码</a>
+                <a href="javascript:void(0)">注销</a>
+            </div>
+        </div>
+        <div class="icons right">
+            <i class="far fa-bell"></i>
+        </div>
+    </div>
+    <div class="pg_content">
+		<!-- 左侧功能区菜单 -->
+        <div class="menu">
+        	<a href = "/mmgallery_war_exploded/management?method=list" class="menu_item" target="ifcontent">皮肤列表</a>
+        	<a href = "/mmgallery_war_exploded/management?method=show_create" class="menu_item" target="ifcontent">新增皮肤</a>
+        </div>
+		<!-- 主体框架 -->
+        <div class="content">
+ 			<iframe name="ifcontent" style="width:100%;height:100%;overflow-y: hidden;border:0px;min-width: 800px;" src="/mmgallery_war_exploded/management?method=list"></iframe>
+        </div>
+    </div>
+</body>
+</html>
